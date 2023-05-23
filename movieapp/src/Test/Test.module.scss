@@ -1,0 +1,13 @@
+.button{
+    padding: 10px 30px;
+    border: 1px solid #61DAFB;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttonActive{
+    @extend .button;
+    background-color: #61DAFB;
+    color: black;
+}
