@@ -1,15 +1,12 @@
-import logo from './logo.svg';
+import { Fragment } from 'react';
 import './App.css';
-import Test from './Test/Test';
+import MainContainer from './MainContainer/MainContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Test></Test>
-      </header>
-    </div>
+    <Fragment>
+      <MainContainer></MainContainer>
+    </Fragment>
   );
 }
 
