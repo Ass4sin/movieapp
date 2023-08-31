@@ -1,0 +1,1 @@
+export const menuTabs = ["Home", "Movies", "TV Shows", "Reviews", "New Releases"];

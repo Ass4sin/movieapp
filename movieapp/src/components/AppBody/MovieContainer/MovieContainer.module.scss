@@ -1,0 +1,26 @@
+.moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-block: 20px;
+}
+
+.movieImage{
+    min-width: 280px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+
+    transition: 0.3s ease all;
+}
+
+.posterContainer {
+    position: relative;
+}
+
+.posterContainerDetailedView{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}

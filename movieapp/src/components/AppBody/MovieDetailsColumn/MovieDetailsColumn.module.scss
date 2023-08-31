@@ -1,0 +1,19 @@
+strong {
+    font-size: 19px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.genreList{
+    display: flex;
+    gap: 10px;
+}
+
+.detailsColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

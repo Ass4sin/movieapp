@@ -1,12 +1,13 @@
 import { Fragment } from 'react';
 import './App.css';
-import MainContainer from './MainContainer/MainContainer';
+import { AppProvider } from './AppContext';
+import MainContainer from './components/MainContainer/MainContainer';
 
 function App() {
   return (
-    <Fragment>
+    <AppProvider>
       <MainContainer></MainContainer>
-    </Fragment>
+    </AppProvider>
   );
 }
 

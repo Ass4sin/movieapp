@@ -1,0 +1,22 @@
+.favoriteList {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: center;
+    padding-block: 20px;
+
+}
+
+.posterImage{
+    height: 210px;
+    width: inherit;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.favoriteMovieCard{
+    padding-inline: 10px;
+    text-align: center;
+    width: 140px;
+}
